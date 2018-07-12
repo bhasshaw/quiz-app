@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Human Anatomy Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Test your knowledge of the human body">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="float-grid.css">
+</head>
+<body>
+	<div class="container">
+		<header role="banner">
+			<div class="row">
+				<div class="col-12">
+					<h1><a href="index.html">Human Anatomy Quiz</a></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 score-question"> Score: <span class="quizScore">0</span>&emsp; &emsp; Question: <span class="quizProgress">0</span>/10</div>
+			</div>
+		</header>
+		<main role="main">
+			<div class="row">
+				<div class="col-12">
+					<div class="quizHolder" id="feedBack">
+						<picture class="image-container">
+							<img src="anatomy.jpg" alt="picture of blue skeleton" class="anatomyPhoto">
+						</picture>
+						<p>How well do you know the human body?</p>
+						<button class="startButton full-width" type="button">Start!</button>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="datastore.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

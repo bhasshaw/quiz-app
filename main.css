@@ -1,0 +1,110 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	max-width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.col-12 {
+	text-align: center;
+}
+
+.col-12 a {
+	text-decoration: none;
+	color: white;
+}
+
+.col-12 a:hover {
+	color: aqua;
+}
+
+.score-question {
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.question {
+	margin-top: 50px;
+}
+
+.anatomyPhoto {
+	border: solid 2px aqua;
+	border-radius: 25px;  
+    width: 100%;
+}
+
+.quizHolder {
+	text-align: center;
+}
+
+.quizHolder p {
+	font-size: 20px;
+}
+
+.startButton, .submitButton {
+	height: 40px;
+	font-size: 25px;
+	background-color: aqua;
+	border: none;
+	border-radius: 50px;
+}
+
+.full-width {
+	display: block;
+	width: 100%;
+}
+
+fieldset {
+	border: none;
+}
+
+.answerOptions {
+	display: block;
+	border: solid 1px aqua;
+	border-radius: 50px;
+	font-size: 20px;
+	height: 40px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+
+.answerOptions:hover {
+	background-color: aqua;
+	color: black;
+	cursor: pointer;
+}
+
+.nextButton, .restartButton {
+	height: 40px;
+	font-size: 25px;
+	background-color: aqua;
+	border: none;
+	border-radius: 50px;
+	margin-top: 100px;
+}
+
+.correctTemplate {
+	padding-top: 100px;
+}
+
+.incorrectTemplate {
+	padding-top: 100px;
+}
+
+.submitPage {
+	padding-top: 100px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
